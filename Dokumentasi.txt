@@ -1,0 +1,37 @@
+Nama 	: Wihardodo
+NIM	: 10112547
+Kelas	: Prolanj-12
+
+1.Deskripsi Program
+==========================================
+- Program yang digunakan untuk mengetahui jenis merk handphone, type, harga satuan
+warna handphone, kondisi handphone, dan harga satuan sehingga memudahkan orang untuk mengecek harga handphone yang
+akan dibeli.
+
+2.Cara penggunaan Program
+==========================================
+- Pilih salah satu merk yang tersedia(Samsung, Aple, Oppo Sony) pada kolom "Pilih Merk Handphone"
+- jika sudah pilih satu merk kita bisa melihat "No Tipe Hanphone", "Tipe Handphone" dan "Harga Satuan"
+- Jika kita ingin membelinya masukan "No Tipe Handphone" lalu tekan tombol "Beli"
+- Kemudian akan muncul keterangan "Warna Handphone", "Kondisi Handphone", dan "Harga Satuan"
+
+
+3.Kaitannya atau hubungan dengan OOP
+==========================================
+- program ini tersimpan atau terbungkus dalam file package bernama program (Program Penjualan Handphone Java)
+- pada file ProgramPenjualanHandphone.java program ini menggunakan objek new Frame_penjualan_handphone();
+- menggunakan public class ProgramPenjualanHandphone pada program yang dibuat
+
+- pada file Model_Penyimpanan.java, menggunakan public class Model_penyimpanan, Objek new DefaultTableModel();, menggunakan
+getTabel().addColumn("No");
+        getTabel().addColumn("Tipe Handphone");(sebagai konstruktor)
+        getTabel().addColumn("Harga Satuan");(sebagai konstruktor)
+- public DefaultTableModel getTabel() {
+        return tabel;(untuk mengembalikan nilai)
+-public void setTabel(DefaultTableModel tabel) {
+        this.tabel = tabel;(digunakan sebagai kosntruktor)
+    }
+
+-public class Frame_penjualan_handphone extends javax.swing.JFrame {- (inheritance sebagai anak dari Program Penjualan Handphone.java)
+-new String- objek yang digunakan untuk menyatakan setiap statement atau kondisi
+-(new java.awt.Font)- objek digunakan untuk jenis font
